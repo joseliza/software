@@ -52,3 +52,13 @@ joseliza@PC-Lizana:~$ ./'FoxitReader_version_Setup.run'
 ```
 
 Follow the steps on the screen to complete the installation
+## Instalar Oracle Java 8 en Debian, JDK8 y JRE8
+Para agregar el repositorio PPA de WebUpd8 para Oracle Java en Debian, tecleen los siguientes comandos:
+```
+joseliza@PC-Lizana:~$ su -
+root@PC-Lizana:~#  echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list
+root@PC-Lizana:~#  echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list
+root@PC-Lizana:~#  apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
+root@PC-Lizana:~#  apt-get update
+root@PC-Lizana:~#  apt-get install oracle-java8-installer
+```
