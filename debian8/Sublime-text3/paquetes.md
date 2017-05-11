@@ -7,5 +7,7 @@ For all Sublime Text 2/3 users we recommend install via Package Control.
 3. Look for el_paquete_que_quieras and install it.
 ```
 #### Paquetes:
-1. Markdown Preview
+1. MarkdownPreview
 https://github.com/revolunet/sublimetext-markdown-preview
+2. MarkdownEditing
+https://github.com/SublimeText-Markdown/MarkdownEditing
