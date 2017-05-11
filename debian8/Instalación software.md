@@ -27,7 +27,7 @@ joseliza@PC-Lizana:~$ sudo ln -s /opt/sublime_text_3/sublime_text.desktop sublim
 ```
 Será necesario editar el archivo */opt/sublime_text_3/sublime_text.desktop* para cambiar la ruta por defecto al archivo ejecutable que viene como *sublime_text* a la ruta correcta que hemos puesto que es *sublime_text_3*. Si tenemos problema con el icono usado, deberíamos comprobar la ruta y poner */opt/sublime_text_3/Icon/48x48/sublime-text.png*
 
-## Foxi (Alternativa a Adobe Acrobat Reader)
+## Foxit (Alternativa a Adobe Acrobat Reader)
 <https://www.foxitsoftware.com/products/pdf-reader/>
 
 Versión de 64 bits
